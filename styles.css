@@ -17,7 +17,7 @@ Reset
     --grey3: #ccc;
     --secondaryColor: #2b1f4d;
     --yellow: #ffcc00;
-    --green: #59b210;
+    --green: #8df539;
     --blue: rgb(56, 10, 223);
   }
   
@@ -150,7 +150,7 @@ Reset
   }
   
   .nav__list .nav__link:hover {
-    color: var(--orange);
+    color: var(--green);
   }
   
   .nav__icons {
@@ -179,7 +179,7 @@ Reset
   }
   
   .nav__icons .icon__item:hover {
-    background-color: var(--orange);
+    background-color: var(--green);
     border: 1px solid var(--black);
   }
   
@@ -192,7 +192,7 @@ Reset
     position: absolute;
     top: 2px;
     right: -6px;
-    background-color: var(--orange);
+    background-color: var(--green);
     padding: 0.2rem 0.4rem;
     border-radius: 100%;
     color: var(--primaryColor);
@@ -268,7 +268,7 @@ Reset
       display: flex;
       align-items: center;
       justify-content: space-between;
-      background-color: var(--orange);
+      background-color: var(--green);
       padding: 1.8rem 1rem;
     }
   
@@ -754,7 +754,7 @@ Reset
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--orange);
+    background-color: var(--green);
     width: 3.5rem;
     height: 3.5rem;
     cursor: pointer;
@@ -772,8 +772,8 @@ Reset
     left: -0.6rem;
     height: 0;
     width: 0;
-    border-top: 3px solid var(--orange);
-    border-left: 3px solid var(--orange);
+    border-top: 3px solid var(--green);
+    border-left: 3px solid var(--green);
     transition: 0.5s;
     opacity: 0;
     z-index: 1;
@@ -786,8 +786,8 @@ Reset
     right: -0.6rem;
     width: 0;
     height: 0;
-    border-bottom: 3px solid var(--orange);
-    border-right: 3px solid var(--orange);
+    border-bottom: 3px solid var(--green);
+    border-right: 3px solid var(--green);
     z-index: 1;
     opacity: 0;
     transition: 0.5s;
@@ -892,7 +892,7 @@ Reset
   
   .latest__products .glide__arrow:hover,
   .related__products .glide__arrow:hover {
-    background-color: var(--orange);
+    background-color: var(--green);
     border: 1px solid var(--primaryColor);
   }
   
@@ -1196,7 +1196,7 @@ Reset
     bottom: 10%;
     padding: 0.8rem 1.4rem;
     border-radius: 1rem;
-    background-color: var(--orange);
+    background-color: var(--green);
     visibility: hidden;
     cursor: pointer;
     transition: 0.3s;
@@ -1757,7 +1757,7 @@ Reset
   }
   
   .footer-top__box a:hover {
-    color: var(--orange);
+    color: var(--green);
   }
   
   .footer-top__box div {
@@ -2327,7 +2327,7 @@ Reset
   }
   
   .remove__cart-item:hover svg {
-    fill: var(--orange);
+    fill: var(--green);
   }
   
   .cart-btns {
@@ -2432,4 +2432,9 @@ Reset
       width: 1.5rem;
       height: 1.5rem;
     }
+  }
+
+  .texty
+  {
+    color:#03ac13;
   }
