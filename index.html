@@ -8,8 +8,6 @@
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous">
     </script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"></script>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
@@ -35,8 +33,7 @@
 </head>
 
 <body>
-
-  <!-- Header -->
+<!-- Header -->
   <header id="header" class="header">
     <div class="navigation">
       <div class="container">
@@ -49,7 +46,7 @@
             <a href="/" class="scroll-link"> 
             <div class="texty">
               FARMERS FIRST
-              </div>
+            </div>
             </a>
           </div>
 
@@ -82,16 +79,25 @@
             </a>
 
             <a href="#" class="icon__item">
+            
               <i class="fa fa-search" aria-hidden="true"></i>
             </a>
 
             <a href="cart.html" class="icon__item">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
               <span id="cart__total">0</span>
             </a>
           </div>
         </nav>
       </div>
+    </div>
+    <div class="container2">
+    <nav class="nav2">
+    <a class="search_icony">
+    <input type="search" class="search_bar"  placeholder="    Search here.."/>
+    <i  class="fa fa-search" aria-hidden="true"></i>
+    </a>
+    </nav>
     </div>
 
     <!-- Hero -->
@@ -105,7 +111,7 @@
                   <span class="">New Inspiration 2021</span>
                   <h1 class="texty">FARMING MADE EASY!</h1>
                   <p>Buy all essentials at a lower cost</p>
-                  <a href="#"><button class="hero__btn">FARMER</button></a>
+                  <a href="#collection"><button class="hero__btn">FARMER</button></a>
                 </div>
                 <div class="hero__right">
                   <div class="hero__img-container">
@@ -120,7 +126,7 @@
                   <span>New Inspiration 2021</span>
                   <h1 style="color:green;">TRADING MADE EASY!</h1>
                   <p>Connect directly with farmers and get products at the exact rate</p>
-                  <a href="#"><button class="hero__btn">BUYER</button></a>
+                  <a href="#category"><button class="hero__btn">BUYER</button></a>
                 </div>
                 <div class="hero__right">
                   <img class="banner_02" src="./images/banner_02.png" alt="banner2" />
@@ -144,7 +150,7 @@
         </div>
       </div>
     </div>
-  </header>
+</header>
   <!-- End Header -->
 
   <!-- Main -->
@@ -164,7 +170,9 @@
         <div class="collection__container" data-aos="fade-up" data-aos-duration="1200">
           <div class="collection__box">
             <div class="img__container">
-              <lottie-player class="collection_02" src="https://assets9.lottiefiles.com/packages/lf20_fjtzesde.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px; alignment:center;" autoplay loop  ></lottie-player>
+            <script
+                    src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ta6fw8qq.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
             </div>
             <div class="collection__content">
               <div class="collection__data">
@@ -176,7 +184,7 @@
           </div>
           <div class="collection__box">
             <div class="img__container">
-              <lottie-player class="collection_01" src="https://assets2.lottiefiles.com/private_files/lf30_uMKwX0.json"  background="transparent"  speed="0.25"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+              <img class="collection_02" src="./images/collection_01.png" alt="">
             </div>
             <div class="collection__content">
               <div class="collection__data">
@@ -193,7 +201,7 @@
             <div class="collection__container" data-aos="fade-up" data-aos-duration="1200">
               <div class="collection__box">
                 <div class="img__container">
-                  <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_Bom6gU.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+                  <img class="collection_01" src="./images/collection_03.png" alt="">
                 </div>
                 <div class="collection__content">
                   <div class="collection__data">
@@ -205,7 +213,7 @@
               </div>
               <div class="collection__box">
                 <div class="img__container">
-                  <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_1IpBAw.json"  background="transparent"  speed="0.5"  style="width: 250px; height: 250px;"  loop  autoplay></lottie-player>
+                  <img class="collection_01" src="./images/collection_06.png" alt="">
                 </div>
                 <div class="collection__content">
                   <div class="collection__data">
@@ -233,8 +241,7 @@
                   </div>
                   <div class="collection__box">
                     <div class="img__container">
-                      
-                     <dotlottie-player src="https://assets7.lottiefiles.com/dotlotties/dlf10_nnkg41vh.lottie"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop autoplay></dotlottie-player>
+                      <img class="collection_02" src="./images/collection_05.png" alt="">
                     </div>
                     <div class="collection__content">
                       <div class="collection__data">
@@ -277,7 +284,7 @@
                       <div class="product__price">
                         <h4>₹ 750</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <a href="cart.html"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
                     <ul>
                       <li>
@@ -315,7 +322,7 @@
                       <div class="product__price">
                         <h4>₹ 900</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <a href="cart.html"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
                     <ul>
                       <li>
@@ -353,7 +360,7 @@
                       <div class="product__price">
                         <h4>₹ 600</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <a href="cart.html"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
                     <ul>
                       <li>
@@ -391,7 +398,7 @@
                       <div class="product__price">
                         <h4>₹ 850</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <a href="cart.html"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
                     <ul>
                       <li>
@@ -429,7 +436,7 @@
                       <div class="product__price">
                         <h4>₹ 450</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <a href="cart.html"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
                     <ul>
                       <li>
@@ -467,7 +474,7 @@
                       <div class="product__price">
                         <h4>₹ 300</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <a href="cart.html"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
                     <ul>
                       <li>
@@ -505,7 +512,7 @@
                       <div class="product__price">
                         <h4>₹ 300</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <a href="cart.html"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
                     <ul>
                       <li>
@@ -543,7 +550,7 @@
                       <div class="product__price">
                         <h4>₹ 250</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <a href="cart.html"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
                     <ul>
                       <li>
@@ -581,7 +588,7 @@
                       <div class="product__price">
                         <h4>₹ 450</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                      <a href="cart.html"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
                     <ul>
                       <li>
@@ -602,11 +609,11 @@
                     </ul>
                   </div>
                 </li>
-                    </ul>
-                  </div>
-
               </ul>
             </div>
+
+              </ul>
+          </div>
 
             <div class="glide__arrows" data-glide-el="controls">
               <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
@@ -620,6 +627,7 @@
         </div>
       </section>
 
+<!--category-->
       <section class="category__section section" id="category">
         <div class="tab__list">
           <div class="title__container tabs">
@@ -719,7 +727,7 @@
                       <span>By Admin</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
                         provident rem sed minus natus unde vel modi!</p>
-                      <a href="#"><button>Read More</button></a>
+                      <a href="agrifeed_info.html"><button>Read More</button></a>
                     </div>
                   </div>
                 </li>
@@ -733,7 +741,7 @@
                       <span>By Admin</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
                         provident rem sed minus natus unde vel modi!</p>
-                      <a href="#"><button>Read More</button></a>
+                      <a href="agrifeed_info.html"><button>Read More</button></a>
                     </div>
                   </div>
                 </li>
@@ -747,7 +755,7 @@
                       <span>By Admin</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
                         provident rem sed minus natus unde vel modi!</p>
-                      <a href="#"><button>Read More</button></a>
+                      <a href="agrifeed_info.html"><button>Read More</button></a>
                     </div>
                   </div>
                 </li>
@@ -761,7 +769,7 @@
                       <span>By Admin</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
                         provident rem sed minus natus unde vel modi!</p>
-                      <a href="#"><button>Read More</button></a>
+                      <a href="agrifeed_info.html"><button>Read More</button></a>
                     </div>
                   </div>
                 </li>
@@ -775,7 +783,7 @@
                       <span>By Admin</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
                         provident rem sed minus natus unde vel modi!</p>
-                      <a href="#"><button>Read More</button></a>
+                      <a href="agrifeed_info.html"><button>Read More</button></a>
                     </div>
                   </div>
                 </li>
@@ -786,6 +794,25 @@
         </div>
       </div>
     </section>
+
+    <!--livestock feed-->
+    <section class="section news" id="news">
+      <div class="container">
+        <div class="title__container">
+          <div class="section__titles">
+            <div class="section__title active">
+              <span class="dot"></span>
+<<<<<<< Updated upstream
+              <h1 class="primary__title"><a href="saved resources.html">Livestock Feed</a></h1>
+=======
+              <h1 class="primary__title">
+                <a link rel="html" href="Static_page_02/saved resources.html" class="btn btn-outline-white py-2 px-4">Livestock Feed</a>
+              </h1>
+              
+>>>>>>> Stashed changes
+            </div>
+          </div>
+        </div>
 
      <!-- Founder's Section -->
      <section class="section latest__products" id="latest">
@@ -836,7 +863,7 @@
                     <span>Founder at FarmersFirst</span>
                   </div>
                 </div>
-                </li>
+              </li>
 
               <li class="glide__slide">
                 <div class="testimonial__box">
@@ -864,7 +891,7 @@
                 </div>
               </li>
 
-              </ul>
+            </ul>
           </div>
 
           <div class="glide__bullets" data-glide-el="controls[nav]">
