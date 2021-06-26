@@ -2460,19 +2460,37 @@ Reset
   
 }
 
-.search_icony
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 50%;
-  right: 50%;
-}
-.search_bar
  {
-   
-   height: 1.23cm;
- }
+  box-sizing: border-box;
+}
 
- 
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(255, 255, 255);
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 18%;
+  padding: 10px;
+  background: #ffffff;
+  color: rgb(75, 241, 24);
+  font-size: 17px;
+  border: 1px solid rgb(255, 255, 255);
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #8dfc7e;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
