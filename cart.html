@@ -137,13 +137,28 @@
                                         <td class="product__quantity">
                                             <div class="input-counter">
                                                 <div>
-                                                    <span class="minus-btn">
-                                                        <i class="fa fa-minus"></i>
-                                                    </span>
-                                                    <input type="text" min="1" value="1" max="10" class="counter-btn">
-                                                    <span class="plus-btn">
-                                                       <i class="fa fa-plus"></i>
-                                                    </span>
+                                                    <input type="button" onclick="decrementValue()" value="-" />
+<input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
+<input type="button" onclick="incrementValue()" value="+" />
+<script> function incrementValue()
+{
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    if(value<10){
+        value++;
+            document.getElementById('number').value = value;
+    }
+}
+function decrementValue()
+{
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    if(value>1){
+        value--;
+            document.getElementById('number').value = value;
+    }
+
+}  </script>
                                                 </div>
                                             </div>
                                         </td>
